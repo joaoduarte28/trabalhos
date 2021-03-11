@@ -1,0 +1,133 @@
+.shape{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin-left: -10px;
+}
+
+.onibus{
+    display: flex;
+    flex-direction: column;
+    background-color: #0c5460;
+    width: 100%;
+    height: 42%;
+    align-content: center;
+    align-items: center;
+}
+
+
+h1{
+    justify-self: center;
+}
+
+.tabela{
+    background-color: white;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    border-radius: 5px;
+    width: 90%;
+    height: 150px;
+    display: flex;
+
+}
+
+.texto{
+    justify-content: flex-start;
+    width: 100%;
+    margin-left: 10px;
+}
+.image{
+    justify-content: flex-end;
+}
+
+#onibus{
+    width: 210px;
+    padding-top: 5px;
+    margin-right: 5px;
+}
+
+#metro{
+    width: 185px;
+    padding-top: 5px;
+    margin-right: 5px;
+}
+
+#transito{
+    width: 210px;
+    padding-top: 5px;
+    margin-right: 5px;
+}
+
+#bikes{
+    width: 250px;
+    padding-top: 5px;
+    margin-right: 5px;
+}
+
+.cabecalho{
+    display: flex;
+    background-color: black;
+    height: 10%;
+    width: 100%;
+}
+
+.title{
+    justify-content: flex-start;
+    width: 100%;
+    margin-left: 10px;
+
+}
+.btn_voltar{
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    align-content: center;
+}
+
+h3{
+    color: white;
+    margin-left: 10px;
+}
+
+a{
+    border-width: thin;
+    border-style: solid;
+    border-radius: 3px;
+    text-decoration: none;
+    color: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    border-color: red;
+    height: 20px;
+    align-self: center;
+    margin-right: 10px;
+}
+
+a:hover{
+    color: white;
+    background-color: red;
+    border-color: red;
+}
+
+*{
+    font-family: Courier New, monospace;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+
+.divisao{
+    display: flex;
+    background-color: black;
+    height: 5%;
+    width: 100%;
+}
