@@ -1,0 +1,26 @@
+.space-between {
+    justify-content: space-between;
+}
+
+.item {
+    padding: 0 10px;
+    background: goldenrod;
+    text-align: center;
+    font-size: 1em;
+}
+
+.container {
+    display: flex;
+    border: 1px solid goldenrod;
+    background: goldenrod;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.flex-center {
+    align-items: center;
+}
+
+.flex-start {
+    align-items: flex-start;
+}
